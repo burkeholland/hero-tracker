@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  react-cosmosdb:
+    image: react-cosmosdb
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3001
